@@ -4,7 +4,7 @@ import { IosSwipeBackPlugin } from './definitions';
 const IosSwipeBackPlugin = registerPlugin<IosSwipeBackPlugin>(
   'IosSwipeBackPlugin',
   {
-    web: () => import('./web').then((m) => new m.IosSwipeBackPlugin()),
+    web: () => import('./web').then((m) => new m.IosSwipeBackWeb()),
   }
 );
 

@@ -1,6 +1,6 @@
 {
   "name": "capacitor-swipe-back",
-  "version": "1.0.3",
+  "version": "4.0.0",
   "description": "Enable the back/forward swipe guestures support for iOS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -10,7 +10,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "ales mraz",
+  "author": "alesmraz",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "^4.0.0"

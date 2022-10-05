@@ -2,7 +2,7 @@ import { WebPlugin } from '@capacitor/core';
 import { IosSwipeBackPlugin } from './definitions';
 
 export class IosSwipeBackWeb extends WebPlugin implements IosSwipeBackPlugin {
-  enable(options: { error: number }): Promise<{ error: number }> {
+  enable(_: { error: number }): Promise<{ error: number }> {
     return new Promise(() => {
       return {
         error: 0,
@@ -10,7 +10,7 @@ export class IosSwipeBackWeb extends WebPlugin implements IosSwipeBackPlugin {
     });
   }
 
-  disable(options: { error: number }): Promise<{ error: number }> {
+  disable(_: { error: number }): Promise<{ error: number }> {
     return new Promise(() => {
       return {
         error: 0,
