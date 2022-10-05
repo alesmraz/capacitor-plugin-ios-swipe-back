@@ -2,19 +2,20 @@ import { WebPlugin } from '@capacitor/core';
 import { IosSwipeBackPlugin } from './definitions';
 
 export class IosSwipeBackWeb extends WebPlugin implements IosSwipeBackPlugin {
-  constructor() {
-    super({
-      name: 'IosSwipeBack',
-      platforms: ['web']
+  enable(options: { error: number }): Promise<{ error: number }> {
+    return new Promise(() => {
+      return {
+        error: 0,
+      };
     });
   }
 
-  async enable(options: { error: number }): Promise<{error: number}> {
-    return options;
-  }
-
-  async disable(options: { error: number }): Promise<{error: number}> {
-    return options;
+  disable(options: { error: number }): Promise<{ error: number }> {
+    return new Promise(() => {
+      return {
+        error: 0,
+      };
+    });
   }
 }
 
