@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorPluginIosSwipeBack'
+    s.name = 'CapacitorSwipeBack'
     s.version = '4.0.0'
     s.summary = 'Enable the back/forward swipe guestures support for iOS'
     s.license = 'MIT'

@@ -1,6 +1,6 @@
 {
   "name": "capacitor-swipe-back",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Enable the back/forward swipe guestures support for iOS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -24,7 +24,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorPluginIosSwipeBack.podspec"
+    "CapacitorSwipeBack.podspec"
   ],
   "keywords": [
     "capacitor",

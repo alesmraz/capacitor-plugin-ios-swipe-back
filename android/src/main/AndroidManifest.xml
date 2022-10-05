@@ -1,5 +1,5 @@
 
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.alesmraz.plugin.ios-swipe-back.capacitorpluginiosswipeback">
+      package="com.alesmraz.plugin.ios-swipe-back.capacitorswipeback">
   </manifest>
   
