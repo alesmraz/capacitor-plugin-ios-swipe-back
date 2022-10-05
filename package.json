@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alesmraz/capacitor-swipe-back"
+    "url": "https://github.com/alesmraz/capacitor-plugin-ios-swipe-back"
   },
   "bugs": {
-    "url": "https://github.com/alesmraz/capacitor-swipe-back/issues"
+    "url": "https://github.com/alesmraz/capacitor-plugin-ios-swipe-back/issues"
   }
 }
